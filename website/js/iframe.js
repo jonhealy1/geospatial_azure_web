@@ -26,6 +26,8 @@ function fullscreenviewer(b) {
         var win = window.open(`http://potree.entwine.io/data/hanover.html`, '_blank')
     } else if(global_current_lidar == 'beer-caves'){
         var win = window.open(`http://potree.entwine.io/data/beer-caves.html`, '_blank')
+    } else if(global_current_lidar == 'autzen'){
+        var win = window.open(`http://potree.entwine.io/data/autzen.html`, '_blank')
     } else if(global_current_lidar == 'dublin'){
         var win = window.open(`http://potree.entwine.io/data/dublin.html`, '_blank')
     } else if(global_current_lidar == 'vanuatu-village'){
